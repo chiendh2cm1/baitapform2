@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Research Survey</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        dd {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+<h2>Market Research Survey</h2>
+<div>Please take a few moments to complete this satisfaction survey.</div>
+<p><b>What is your age range?</b></p>
+<select>
+    <option value=" ">18-24</option>
+    <option>25-34</option>
+    <option>35-50</option>
+    <option>50+</option>
+</select>
+<p><b>What is your yearly income range?</b></p>
+<select>
+<option value=" ">$0 - $25,000</option>
+<option value>$25,001 - $50,000</option>
+<option value>$50,001 - $100,000</option>
+<option value>$10,000 +</option>
+</select>
+<dl>
+    <dt><b>Gender</b></dt>
+    <dd><input type="radio" name="sex" id="male" value="Male">Male</dd>
+    <dd><input type="radio" name="sex" id="female" value="Female">Female</dd>
+    <dd><input type="radio" name="sex" id="Nonbinary" value="Nonbinary">Nonbinary</dd>
+    <dd><input type="radio" name="sex" id="Other" value="Other">Other</dd>
+    <dd><input type="text" size="20"></dd>
+
+</dl>
+<dl>
+    <dt><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></dt>
+    <dd><input type="checkbox" value="Product 1">Product 1</dd>
+    <dd><input type="checkbox" value="Product 1">Product 2</dd>
+    <dd><input type="checkbox" value="Product 1">Product 3</dd>
+</dl>
+<dl>
+    <dt><b>How often would you use our new product?</b></dt>
+    <dd><input type="radio" name="time" value="Daily">Daily</dd>
+    <dd><input type="radio" name="time" value="Weekly">Weekly</dd>
+    <dd><input type="radio" name="time" value="Monthly">Monthly</dd>
+</dl>
+<p><b>What would you pay for the new product?</b></p>
+<table style="border: none">
+    <tr>
+        <th>$</th>
+        <th><input type="number" size="10"></th>
+        <th>.</th>
+        <th><input type="text" size="1"></th>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="2">Dollars</td>
+        <td>Cents</td>
+    </tr>
+</table>
+<p><b>What would you pay for the new product?</b></p>
+<textarea cols="80" rows="5"></textarea>
+</body>
+</html>
